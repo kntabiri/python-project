@@ -1,7 +1,21 @@
-# data_type = type("12") - a string
+# data_type = type("12") - class string
 
-# data_type = type (12.08) - a decimal is a float
+# data_type = type (12.08) - class float
 
-# data_type = type (12) - an integer
+# data_type = type (12) - class integer
 
-print (data_type)
+# adult = True - class boolean
+# adult = False
+
+adult = False
+data_type = type(adult)
+print(data_type)
+
+adult = 25
+data_type = type(adult)
+print(data_type)
+
+adult = "25"
+data_type = type(adult)
+print(data_type)
+
