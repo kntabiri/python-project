@@ -1,8 +1,9 @@
 a = 100
 b = 20
 
+# use of function
+
 def addition():
-    # c = 200 local variable
     print (a+b)
 
 def subtraction():
