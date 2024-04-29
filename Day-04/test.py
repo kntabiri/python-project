@@ -10,6 +10,6 @@ response = client.get_bucket_acl(
     Bucket= 'kojo-s3-bucket-demo',
 )
 
-print(response)
+
 
 
